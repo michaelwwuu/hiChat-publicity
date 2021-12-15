@@ -1,0 +1,642 @@
+html {
+    height: 100vh;
+}
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+body {
+    /* background-color: #FAFCFE; */
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+.sub-title {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.sub-title-horizon {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+.thi-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.wrap-full-pc {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 3328px;
+    overflow: hidden;
+    background-image: url('../img/background/background.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrap-content {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 50;
+}
+.wrap-sub-content {
+    position: relative;
+    width: 100%;
+    max-width: 938px;
+    margin: 0 auto;
+    text-align: center;
+}
+.padding-50 {
+    padding: 0 50px;
+}
+.flag {
+    vertical-align: top;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.logo {
+    width: 40%;
+    max-width: 157px;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+}
+.string_copyright {
+    position: absolute;
+    top: 38px;
+    right: 60px;
+    color: #fff;
+}
+.dropdown {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 100;
+}
+.dropdown .btn {
+    font-size: 18px;
+}
+.dropdown button,
+.dropdown button:hover {
+    color: #fff;
+}
+.dropdown-menu {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+.dropdown-item {
+    padding: .25rem 1.5rem;
+}
+.triangle {
+    position: absolute;
+    top: -10px;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+/* start pc-top-block */
+.pc-top-block {
+    height: 860px;
+}
+.pc-top-block .left-block, .pc-top-block .right-block {
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    margin-top: 209px;
+    vertical-align: top;
+}
+.pc-top-block .left-block {
+    text-align: left;
+}
+.pc-top-block .string_headline {
+    color: #fff;
+    margin-top: 119px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.pc-top-block .string_desc {
+    color: #fff;
+    font-size: 30px;
+}
+.mobile-1 {
+    position: absolute;
+    width: 100%;
+    max-width: 303px;
+    top: -10px;
+    left: auto;
+    right: -10px;
+    opacity: 1;
+}
+.mobile-2 {
+    position: absolute;
+    width: 100%;
+    max-width: 303px;
+    top: 20px;
+    left: 0px;
+}
+/* end pc-top-block */
+/* start download */
+.download-area {
+    display: inline-block;
+    text-align: center;
+}
+.download-btn {
+    margin: 38px 0 0 0;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: left;
+    padding: 0 26px;
+    cursor: pointer;
+}
+.download-btn:hover + .download-qr {
+     visibility: visible;
+}
+.download-btn img {
+    display: inline-block;
+    vertical-align: top;
+    width: 42px;
+    margin: 16px 0 0 0;
+}
+.download-btn .android-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.download-btn .string_app_apk {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 56px;
+    margin-top: -18px;
+}
+.download-qr {
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 20px 6px 0;
+    padding: 8px 0px 16px;
+    visibility: hidden;
+}
+.download-qr.show {
+    visibility: visible;
+}
+.download-qr img {
+    max-width: 130px;
+    width: 70%;
+}
+.download-qr .string_qr_download {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+/* end download */
+
+/* start unit-block-1 */
+.unit-block-1 {
+    height: 448px;
+}
+.unit-block-1 ul li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 33%;
+}
+.unit-block-1 .cube {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px 1px #c7e4e6;
+    margin-bottom: 29px;
+}
+.unit-block-1 .cube img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.unit-block-1 ul li p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+/* end unit-block-1 */
+
+/* start unit-block-2 */
+.unit-block-2 {
+    margin-top: 60px;
+    height: 420px;
+}
+.unit-block-2 .unit-left {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+}
+.unit-block-2 .unit-right {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+/* end unit-block-2 */
+/* start unit-block-3 */
+.unit-block-3 {
+    margin-top: 60px;
+    height: 422px;
+}
+.unit-block-3 .unit-left {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+.unit-block-3 .unit-right {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+}
+/* end unit-block-2 */
+/* start unit-block-4 */
+.unit-block-4 {
+    margin-top: 60px;
+    height: 422px;
+}
+.unit-block-4 .unit-left {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+}
+.unit-block-4 .unit-right {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+/* end unit-block-4 */ 
+/* start unit-block-5 */
+.unit-block-5 {
+    margin-top: 60px;
+    height: 390px;
+}
+.unit-block-5 .unit-left {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+.unit-block-5 .unit-right {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 80px;
+}
+/* end unit-block-2 */
+
+
+
+
+
+
+
+.wrap-full-h5 {
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    /* height: 3328px; */
+    overflow: hidden;
+    background-color: #FAFCFE;
+    background-image: url('../img/background/header.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0 auto;
+    /* padding: 0 10px; */
+    text-align: center;
+    background-size: 100%;
+    /* height: 839vw; */
+}
+.wrap-full-h5 .logo {
+    top: 22px;
+    left: 22px;
+}
+.wrap-full-h5 .dropdown {
+    top: 16px;
+    right: 20px;
+}
+
+.wrap-full-h5 .sub-title {
+    font-size: 7vw;
+    margin-bottom: 13vw;
+}
+.wrap-full-h5 .unit-block-1 ul li p {
+    font-size: 4.6vw;
+    font-weight: 500;
+}
+.wrap-full-h5 .sub-title-horizon {
+    font-size: 7vw;
+}
+.wrap-full-h5 .thi-title {
+    font-size: 4.6vw;
+    font-weight: 500;
+}
+.wrap-full-h5 .string_headline {
+    font-size: 9vw;
+    color: #fff;
+    margin-top: 25vw;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.wrap-full-h5 .string_desc {
+    font-size: 7vw;
+    color: #fff;
+    margin-top: -2px;
+    font-weight: 500;
+    margin-bottom: 0;
+    min-height: 17vw;
+    padding: 0 10px;
+}
+
+.wrap-full-h5 .download-btn {
+    position: relative;
+    margin: 6vw 0 0 0;
+    height: auto;
+    border-radius: 10px;
+    padding: 1% 6%;
+}
+.wrap-full-h5 .download-btn div {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.wrap-full-h5 .download-btn img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    width: 11vw;
+    padding: 0 1%;
+}
+.wrap-full-h5 .download-btn ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+    padding-right: 0px;
+}
+
+.wrap-full-h5 .download-btn .android-text {
+    font-size: 4vw;
+    margin-left: 0px;
+    margin-top: 0;
+    display: block;
+}
+.wrap-full-h5 .download-btn .string_app_apk {
+    font-size: 5vw;
+    margin-left: 0px;
+    margin-top: 0px;
+    white-space: nowrap;
+}
+
+.wrap-full-h5 .wrap-mobile-h5 {
+    position: relative;
+    margin-top: 10vw;
+    width: 100%;
+}
+.wrap-full-h5 .mobile-1 {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    top: 0;
+    left: 15%;
+    max-width: none;
+    width: 50vw;
+}
+.wrap-full-h5 .mobile-2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: 6%;
+    margin-left: -15%;
+    max-width: none;
+    width: 50vw;
+    transform: translateX(-50%);
+}
+.wrap-full-h5 .unit-block-1 {
+    height: auto;
+    margin-top: 6vw;
+    text-align: center;
+}
+.unit-block-1 ul {
+    margin-top: 10%;
+}
+.wrap-full-h5 .unit-block-1 ul li {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.wrap-full-h5 .unit-block-1 ul li .cube {
+    width: 26vw;
+    height: 26vw;
+    margin-bottom: 3vw;
+}
+.wrap-full-h5 .unit-block-1 ul li .cube img {
+    width: 60%;
+}
+.wrap-full-h5 .wrap-h5-unit-2 {
+    height: auto;
+}
+.wrap-full-h5 .wrap-h5-unit-2 li {
+    margin-top: 8vw;
+    margin-bottom: 19vw;
+}
+.wrap-full-h5 .wrap-h5-unit-2 img {
+    width: 68vw;
+    margin-bottom: 3vw;
+}
+.wrap-full-h5 .wrap-h5-footer {
+    background-image: url('../img/background/footer.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    z-index: 200;
+
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 346px;
+    margin-top: 50px;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.wrap-full-h5 .wrap-h5-footer .logo {
+    position: relative;
+    display: block;
+    left: 0;
+    top: 10px;
+    right: 0;
+    margin: 120px auto 2vw;
+}
+.wrap-full-h5 .wrap-h5-footer .string_copyright {
+    position: relative;
+    display: block;
+    left: 0;
+    top: 30px;
+    right: 0;
+}
+
+
+
+
+/* 區分手機 電腦 */
+.wrap-full-pc {
+    display: block;
+}
+.wrap-full-h5 {
+    display: none;
+}
+@media (max-width: 768px) {
+    .wrap-full-pc {
+        display: none;
+    }
+    .wrap-full-h5 {
+        display: block;
+    }
+}
+/* 區分手機 電腦 */
+
+
+
+.string_headline {
+    animation: string_fadeout 1s forwards;
+    animation-delay: 0.2s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.string_desc {
+    animation: string_fadeout 1s forwards;
+    animation-delay: 0.4s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.download-area, .download-btn {
+    animation: string_fadeout 1s forwards;
+    animation-delay: 0.6s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+@keyframes string_fadeout {
+    0%   {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.wrap-full-pc .mobile-1 {
+    animation: mobile-1 1s forwards;
+    animation-delay: 1.2s;
+    transform: translate(-175px, 30px);
+    opacity: 0;
+}
+@keyframes mobile-1 {
+    0% {
+        transform: translate(-175px, 30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-10px, -10px);
+        opacity: 1;
+    }
+}
+.wrap-full-pc .mobile-2 {
+    top: 20px;
+    left: 0px;
+    animation: mobile-2 1s forwards;
+    animation-delay: 1s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+@keyframes mobile-2 {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.wrap-full-h5 .mobile-1 {
+    animation: mobile-h5-1 1s forwards;
+    animation-delay: 1.2s;
+    transform: translate(-10%, 10%);
+    opacity: 0;
+}
+@keyframes mobile-h5-1 {
+    0% {
+        transform: translate(-10%, 10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-10px, -10px);
+        opacity: 1;
+    }
+}
+.wrap-full-h5 .mobile-2 {
+    top: 0;
+    left: 50%;
+    margin-top: 6%;
+    margin-left: -15%;
+    max-width: none;
+    width: 50vw;
+    transform: translateX(10%);
+
+    animation: mobile-h5-2 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@keyframes mobile-h5-2 {
+    0% {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}
+
