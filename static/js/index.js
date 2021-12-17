@@ -67,11 +67,13 @@ var LANGUAGE_CODE = "zh-CN"; //标识语言
 function loadProperties(type) {
     if (type === 'en-US' || type === 'en') {
         $('.logo').attr('src', './static/img/brand-en.png');
+        $('.logo-footer').attr('src', './static/img/brand-footer.png');
         $('.mobile-1').attr('src', './static/img/mobile/records-en.png');
         $('.mobile-2').attr('src', './static/img/mobile/home-en.png');
         $('.dropdown button').html('<img class="flag" src="./static/img/language/united-states.png">English '); // 下拉選單
     } else {
         $('.logo').attr('src', './static/img/brand-zh.png');
+        $('.logo-footer').attr('src', './static/img/brand-footer.png');
         $('.mobile-1').attr('src', './static/img/mobile/records-zh.png');
         $('.mobile-2').attr('src', './static/img/mobile/home-zh.png');
         $('.dropdown button').html('<img class="flag" src="./static/img/language/china.png">中文 '); // 下拉選單
