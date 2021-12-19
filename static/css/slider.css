@@ -1,0 +1,154 @@
+
+
+.slider_container-h5{
+  width: 100vw;
+  position: absolute;
+  height: 134vw;
+  overflow: hidden;
+}
+.slider_container-h5 div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: scale(2);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100vw;
+  position: absolute;
+  height: 134vw;
+  overflow: hidden;
+}
+.slider_container-h5 div {
+  -webkit-animation: round 20s linear infinite;
+  animation: round 20s linear infinite;
+}
+
+
+.slider_container-h5 div:nth-child(4) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  background-image: url('../img/background/hichat-header-bg.png');
+
+}
+
+.slider_container-h5 div:nth-child(3) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  background-image: url('../img/background/hichat-header-bg2.png');
+
+}
+
+.slider_container-h5 div:nth-child(2) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  background-image: url('../img/background/hichat-header-bg.png');
+}
+
+.slider_container-h5 div:nth-child(1) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+  background-image: url('../img/background/hichat-header-bg2.png');
+
+}
+
+.slider_container{
+  width: 100vw;
+  position: absolute;
+  height: 50vw;
+  overflow: hidden;
+}
+.slider_container div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: scale(2);
+  background-repeat: no-repeat;
+  background-position: 0 -75px;
+  background-size: cover;
+  width: 100vw;
+  position: absolute;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.slider_container div {
+  -webkit-animation: round 20s linear infinite;
+  animation: round 20s linear infinite;
+}
+
+@-webkit-keyframes round {
+  5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: scale(2);
+    /* 0 - 1秒 淡入*/
+  }
+
+  25% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  30% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: scale(1);
+    /* 5-6秒淡出*/
+  }
+}
+
+@keyframes round {
+  5% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: scale(2);
+    /* 0 - 1秒 淡入*/
+  }
+
+  25% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  30% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: scale(1);
+    /* 5-6秒淡出*/
+  }
+}
+
+
+.slider_container div:nth-child(4) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  background-image: url('../img/background/hichat-header-bg.png');
+
+}
+
+.slider_container div:nth-child(3) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  background-image: url('../img/background/hichat-header-bg2.png');
+
+}
+
+.slider_container div:nth-child(2) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  background-image: url('../img/background/hichat-header-bg.png');
+}
+
+.slider_container div:nth-child(1) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+  background-image: url('../img/background/hichat-header-bg2.png');
+
+}
