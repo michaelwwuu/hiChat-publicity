@@ -12,7 +12,7 @@
   left: 0;
   opacity: 0;
   filter: alpha(opacity=0);
-  transform: scale(2);
+  transform: scale(1.5);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -66,7 +66,7 @@
   left: 0;
   opacity: 0;
   filter: alpha(opacity=0);
-  transform: scale(2);
+  transform: scale(1.5);
   background-repeat: no-repeat;
   background-position: 0 -75px;
   background-size: cover;
@@ -77,25 +77,25 @@
 }
 
 .slider_container div {
-  -webkit-animation: round 20s linear infinite;
-  animation: round 20s linear infinite;
+  -webkit-animation: round 40s linear infinite;
+  animation: round 40s linear infinite;
 }
 
 @-webkit-keyframes round {
-  5% {
+  2.5% {
     opacity: 1;
     filter: alpha(opacity=100);
-    transform: scale(2);
+    transform: scale(1.5);
     /* 0 - 1秒 淡入*/
   }
 
-  25% {
+  20% {
     opacity: 1;
     filter: alpha(opacity=100);
     /* 1- 5秒靜止*/
   }
 
-  30% {
+  27.5% {
     opacity: 0;
     filter: alpha(opacity=0);
     transform: scale(1);
@@ -104,20 +104,20 @@
 }
 
 @keyframes round {
-  5% {
+  2.5% {
     opacity: 1;
     filter: alpha(opacity=100);
-    transform: scale(2);
+    transform: scale(1.5);
     /* 0 - 1秒 淡入*/
   }
 
-  25% {
+  20% {
     opacity: 1;
     filter: alpha(opacity=100);
     /* 1- 5秒靜止*/
   }
 
-  30% {
+  27.5% {
     opacity: 0;
     filter: alpha(opacity=0);
     transform: scale(1);
@@ -134,21 +134,21 @@
 }
 
 .slider_container div:nth-child(3) {
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
   background-image: url('../img/background/hichat-header-bg2.png');
 
 }
 
 .slider_container div:nth-child(2) {
-  -webkit-animation-delay: 10s;
-  animation-delay: 10s;
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
   background-image: url('../img/background/hichat-header-bg.png');
 }
 
 .slider_container div:nth-child(1) {
-  -webkit-animation-delay: 15s;
-  animation-delay: 15s;
+  -webkit-animation-delay: 30s;
+  animation-delay: 30s;
   background-image: url('../img/background/hichat-header-bg2.png');
 
 }

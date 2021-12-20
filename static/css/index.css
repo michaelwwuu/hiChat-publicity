@@ -39,8 +39,8 @@ ul li {
     overflow: hidden;
     background-image: url('../img/background/background.png');
     background-repeat: no-repeat;
-    background-position: center -35vh;
-    background-size: 100%;
+    background-position: center;
+    background-size: 100% 100%;
     margin: 0 auto;
     /* padding: 0 20px; */
 }
@@ -56,6 +56,7 @@ ul li {
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(180deg, #373737c1, #00000000);
+  position:absolute;
 }
 
 
@@ -118,7 +119,7 @@ ul li {
 .wrap-sub-content {
     position: relative;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -227,6 +228,7 @@ ul li {
 .download-btn {
     margin: 38px 0 0 0;
     height: 60px;
+    width: 12em;
     background-color: #fff;
     border-radius: 12px;
     display: inline-block;
@@ -258,6 +260,7 @@ ul li {
 .download-btn-browser {
   margin: 38px 0 0 0;
   height: 60px;
+  width: 10em;
   background-color: #fff;
   border-radius: 12px;
   display: inline-block;
@@ -349,7 +352,8 @@ ul li {
 
 /* start unit-block-1 */
 .unit-block-1 {
-    height: 590px;
+    /* height: 590px; */
+    padding-bottom: 20%;
 }
 .unit-block-1 ul li {
     display: inline-block;
@@ -383,8 +387,9 @@ ul li {
 
 /* start unit-block-2 */
 .unit-block-2 {
-    /* margin-top: 60px; */
-    height: 600px;
+    /* margin-top: 60px;
+    height: 600px; */
+    padding-bottom: 10%;
 }
 .unit-block-2 .unit-left {
     display: inline-block;
@@ -400,8 +405,10 @@ ul li {
 /* end unit-block-2 */
 /* start unit-block-3 */
 .unit-block-3 {
-    /* margin-top: 60px; */
-    height: 570px;
+    /* margin-top: 60px;
+    height: 570px; */
+    padding-bottom: 10%;
+
 }
 .unit-block-3 .unit-left {
     display: inline-block;
@@ -417,8 +424,9 @@ ul li {
 /* end unit-block-2 */
 /* start unit-block-4 */
 .unit-block-4 {
-    /* margin-top: 60px; */
-    height: 630px;
+    /* margin-top: 60px;
+    height: 630px; */
+    padding-bottom: 10%;
 }
 .unit-block-4 .unit-left {
     display: inline-block;
@@ -434,7 +442,7 @@ ul li {
 /* end unit-block-4 */ 
 /* start unit-block-5 */
 .unit-block-5 {
-    /* margin-top: 60px; */
+    margin-top: 60px;
     height: 390px;
 }
 .unit-block-5 .unit-left {
@@ -609,6 +617,7 @@ ul li {
 }
 .wrap-full-h5 .wrap-h5-unit-2 {
     height: auto;
+    margin-top: -20vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 li {
     margin-top: 45vw;
