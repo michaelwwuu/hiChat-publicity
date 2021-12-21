@@ -127,7 +127,7 @@
       }
     </style>
 
-    <div class="wrap-content-text"><img class="logo" src="./static/img/brand.png" alt=""><!-- icon --><span class="logo-text">嗨聊</span></div>
+    <div class="wrap-content-text"><img class="logo-header" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
     <!-- 下拉选单 -->
     <!-- <div class="dropdown">
       
@@ -642,7 +642,26 @@
   // .setTween(".wrap-full-h5 .string_qr_block_1", {borderTop: "30px solid white", backgroundColor: "green", scale: 0.7}) // the tween durtion can be omitted and defaults to 1                    
 </script>
 <script>
-  $(window).scroll(function() {    
+  $(window).scroll(function() {  
+    if (
+      navigator.userAgent.match(/Android/i) ||
+      navigator.userAgent.match(/webOS/i) ||
+      navigator.userAgent.match(/iPhone/i) ||
+      navigator.userAgent.match(/iPad/i) ||
+      navigator.userAgent.match(/iPod/i) ||
+      navigator.userAgent.match(/BlackBerry/i) ||
+      navigator.userAgent.match(/Windows Phone/i)
+    ) {
+      var scroll = $(window).scrollTop();
+      console.log(scroll)
+      //>=, not <=
+      if (scroll >= 446) {
+        //clearHeader, not clearheader - caps H
+        $(".wrap-content-text").addClass("wrap-content-text-write");
+      }else{
+        $(".wrap-content-text").removeClass("wrap-content-text-write");
+      }
+    } else {
       var scroll = $(window).scrollTop();
       //>=, not <=
       if (scroll >= 788) {
@@ -651,6 +670,7 @@
       }else{
         $(".wrap-content-text").removeClass("wrap-content-text-write");
       }
+    }  
   }); //missing );
 </script>
 </html>

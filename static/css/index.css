@@ -118,9 +118,9 @@ ul li {
   transition: 0.5s;
 
 }
-
 .wrap-content-text-write >span{
   color: #F60 !important;
+  
 }
 .wrap-content-text >.logo{
   width: 40px;
@@ -508,6 +508,10 @@ ul li {
   background-image: linear-gradient(180deg, #0000003d, #00000000);
   position:absolute;
 }
+.wrap-full-h5>.wrap-content-text{
+  padding: 20px;
+}
+
 .wrap-full-h5 >.wrap-content-text>span{
   top: 25px;
   left: 73px;
