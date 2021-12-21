@@ -262,7 +262,7 @@
   </div>
 
   <div class="wrap-full-pc">
-    <div id="mvArea" class="">
+    <div id="mvArea" class="mvArea">
       <ul class="mvList">
         <li>
           <div class="mvImg gatsby-image-wrapper" style="position:relative;overflow:hidden">
@@ -283,13 +283,13 @@
       </ul>
     </div>
 
-    <div class="wrap-full-bg-color"></div>
+    <!-- <div class="wrap-full-bg-color"></div> -->
 
-
+    <div class="wrap-content-text"><img class="logo-header" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
     <div class="wrap-content">
       
       <!-- 1440 -->
-      <div class="wrap-content-text"><img class="logo-header" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
+
       
       <!-- 下拉选单 -->
 
@@ -461,7 +461,7 @@
 
     <div class="wrap-content-footer">
       <!-- 1440 -->
-      <div class="wrap-content-text"><img class="logo-footer" src="./static/img/brand.png" alt=""><!-- icon --><span style="top:40px;">嗨聊</span></div>
+      <div class="wrap-footer-text"><img class="logo-footer" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
       <div class="string_copyright"></div>
     </div>
 
@@ -653,7 +653,6 @@
       navigator.userAgent.match(/Windows Phone/i)
     ) {
       var scroll = $(window).scrollTop();
-      console.log(scroll)
       //>=, not <=
       if (scroll >= 446) {
         //clearHeader, not clearheader - caps H
@@ -665,8 +664,8 @@
       var scroll = $(window).scrollTop();
       //>=, not <=
       if (scroll >= 788) {
-          //clearHeader, not clearheader - caps H
-          $(".wrap-content-text").addClass("wrap-content-text-write");
+        //clearHeader, not clearheader - caps H
+        $(".wrap-content-text").addClass("wrap-content-text-write");
       }else{
         $(".wrap-content-text").removeClass("wrap-content-text-write");
       }
