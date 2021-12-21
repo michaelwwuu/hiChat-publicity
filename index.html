@@ -127,7 +127,7 @@
       }
     </style>
 
-    <div class="wrap-content-text"><img class="logo" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
+    <div class="wrap-content-text"><img class="logo" src="./static/img/brand.png" alt=""><!-- icon --><span class="logo-text">嗨聊</span></div>
     <!-- 下拉选单 -->
     <!-- <div class="dropdown">
       
@@ -287,8 +287,9 @@
 
 
     <div class="wrap-content">
+      
       <!-- 1440 -->
-      <div class="wrap-content-text"><img class="logo" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
+      <div class="wrap-content-text"><img class="logo-header" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
       
       <!-- 下拉选单 -->
 
@@ -311,7 +312,7 @@
           </div>
           <div class="download-area">
             <div class="download-btn">
-              <img src="./static/img/icon/android.png" alt="">
+              <img src="./static/img/icon/android.png" alt="" style="margin:0; position:relative;top:8px;">
               <p class="android-text">Download APK</p><br>
               <p class="string_app_apk"></p>
             </div>
@@ -460,7 +461,7 @@
 
     <div class="wrap-content-footer">
       <!-- 1440 -->
-      <div class="wrap-content-text"><img class="logo-footer" src="./static/img/brand.png" alt=""><!-- icon --><span>嗨聊</span></div>
+      <div class="wrap-content-text"><img class="logo-footer" src="./static/img/brand.png" alt=""><!-- icon --><span style="top:40px;">嗨聊</span></div>
       <div class="string_copyright"></div>
     </div>
 
@@ -480,9 +481,8 @@
 <script src="./static/js/index.js"></script>
 
 <script>
-  // build scene
-  var controller = new ScrollMagic.Controller();
-
+   var controller = new ScrollMagic.Controller();
+   
   new ScrollMagic.Scene({
       triggerElement: "#toggle_magic_1",
       duration: 160
@@ -556,6 +556,7 @@
     }) // the tween durtion can be omitted and defaults to 1
     // .addIndicators({name: "5"})
     .addTo(controller);
+
   new ScrollMagic.Scene({
       triggerElement: "#toggle_magic_5_p",
       duration: 160
@@ -640,5 +641,16 @@
 
   // .setTween(".wrap-full-h5 .string_qr_block_1", {borderTop: "30px solid white", backgroundColor: "green", scale: 0.7}) // the tween durtion can be omitted and defaults to 1                    
 </script>
-
+<script>
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      //>=, not <=
+      if (scroll >= 788) {
+          //clearHeader, not clearheader - caps H
+          $(".wrap-content-text").addClass("wrap-content-text-write");
+      }else{
+        $(".wrap-content-text").removeClass("wrap-content-text-write");
+      }
+  }); //missing );
+</script>
 </html>
