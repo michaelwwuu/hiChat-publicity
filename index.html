@@ -642,6 +642,21 @@
   // .setTween(".wrap-full-h5 .string_qr_block_1", {borderTop: "30px solid white", backgroundColor: "green", scale: 0.7}) // the tween durtion can be omitted and defaults to 1                    
 </script>
 <script>
+  window.addEventListener('mousewheel', function(event){
+  if (event.ctrlKey === true || event.metaKey) {
+  event.preventDefault();
+  }
+  },{ passive: false});
+  //firefox
+  window.addEventListener('DOMMouseScroll', function(event){
+  if (event.ctrlKey === true || event.metaKey) {
+  event.preventDefault();
+  }
+  },{ passive: false});
+
+
+ 
+
   $(window).scroll(function() {  
     if (
       navigator.userAgent.match(/Android/i) ||
