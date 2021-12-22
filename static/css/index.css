@@ -159,8 +159,6 @@ ul li {
     max-width: 1100px;
     margin: 0 auto;
     text-align: center;
-    min-width: 1100px;
-
 }
 .padding-50 {
     padding: 0 50px;
@@ -498,7 +496,7 @@ ul li {
 }
 /* end unit-block-2 */
 
-.wrap-full-h5 {
+/* .wrap-full-h5 {
     position: relative;
     width: 100%;
     max-width: 768px;
@@ -510,7 +508,23 @@ ul li {
     background-size: cover;
     text-align: center;
     margin: 0 auto;
+    
+    
+} */
+.wrap-full-h5 {
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+  overflow: hidden;
+  background-color: #FAFCFE;
+  background-image: url('../img/background/background-m.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 0 auto;
+  text-align: center;
+  background-size: 100%;
 }
+
 .wrap-full-h5-bg-color{
   width: 100vw;
   height: 134vw;
@@ -661,20 +675,20 @@ ul li {
     width: 60%;
 }
 .wrap-full-h5 .wrap-h5-unit-2 {
-    height: auto;
-    margin-top: -20vw;
+  height: auto;
+  margin-top: -20vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 li {
-    margin-top: 45vw;
+  margin-top: 45vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 img {
     width: 68vw;
     margin-bottom: 3vw;
 }
 .wrap-full-h5 .wrap-h5-footer {
-    /* background-image: url('../img/background/footer.png');
+    background-image: url('../img/background/footer.png');
     background-repeat: no-repeat;
-    background-position: center top; */
+    background-position: center top;
     position: relative;
     z-index: 200;
     left: 0;
@@ -729,6 +743,63 @@ ul li {
 }
 /* 區分手機 電腦 */
 
+@media only screen and (max-width:878px) and (min-width:767px) {
+  /* .wrap-sub-content{
+    min-width: 768px;
+  } */
+  .wrap-full-h5 .download-btn{
+    width: 382px;
+  }
+  .wrap-full-h5 .wrap-h5-unit-2{
+    margin-top: 60vw;
+  }
+  .wrap-full-h5 .wrap-h5-unit-2 li {
+    margin-top: 55vw;
+  }
+  .wrap-full-h5 .wrap-h5-footer{
+    margin-top: 115px;
+  }
+  .wrap-full-h5 .download-btn .android-text{
+    font-size:3vw;
+  }
+  .wrap-full-h5 .download-btn .string_app_apk,.string_app_ios{
+    font-size:2vw;
+  }
+  .wrap-full-h5 .download-btn img{
+    margin-top:70%;
+    width: 8vw;
+  }
+}
+
+@media only screen and (min-width:539px) and (max-width:767px) {
+  .wrap-full-h5 .download-btn{
+    width: 277px;
+  }
+  .wrap-full-h5 .wrap-h5-unit-2{
+    margin-top: 60vw;
+  }
+  .wrap-full-h5 .wrap-h5-unit-2 li {
+    margin-top: 55vw;
+  }
+  .wrap-full-h5 .wrap-h5-footer{
+    margin-top: 115px;
+  }
+  .wrap-full-h5 .download-btn .android-text{
+    font-size:3vw;
+  }
+  .wrap-full-h5 .download-btn .string_app_apk,.string_app_ios{
+    font-size:2vw;
+  }
+  .wrap-full-h5 .download-btn img{
+    margin-top:70%;
+    width: 8vw;
+  }
+}
+@media only screen and (max-width:281px) and (max-height:654px) {
+  .wrap-full-h5 .download-btn{
+    width: 200px;
+  }
+}
 
 
 .string_headline {
@@ -755,7 +826,7 @@ ul li {
 
 .wrap-full-h5 .string_desc{
   width: 9.7em;
-  border-right: .2em solid #fe5f3f;
+  border-right: .1em solid #fe5f3f;
   height:1.5em;
   min-height: 1.5em;
   white-space: nowrap;

@@ -1747,6 +1747,49 @@ section {
   }
 }
 
+@media only screen and (min-width:1024px) and (min-height:1366px) {
+  #mvArea {
+    position: absolute;
+    width: 100vw;
+    height: 24vh;
+    min-width: 1024px;
+  }
+  #mvArea .mvList {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-width: 1024px;
+    /* animation: startMv 2.1s; */
+    animation-timing-function: ease-in-out;
+    transition: all .3s;
+  }
+  #mvArea .mvList li {
+    height: 100vh;
+    top: 270px;
+  }
+}
+@media only screen and (min-width:1024px) and (min-height:1366px) {
+  #mvArea {
+    position: absolute;
+    width: 100vw;
+    height: 24vh;
+    min-width: 1024px;
+  }
+  #mvArea .mvList {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-width: 1024px;
+    /* animation: startMv 2.1s; */
+    animation-timing-function: ease-in-out;
+    transition: all .3s;
+  }
+  #mvArea .mvList li {
+    height: 100vh;
+    top: 270px;
+  }
+}
+
 @media only screen and (min-width:879px) {
   #mainService .grid {
     top: 0;
