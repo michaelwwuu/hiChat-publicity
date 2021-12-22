@@ -217,7 +217,7 @@ ul li {
 
 /* start pc-top-block */
 .pc-top-block {
-    height: 900px;
+    height: 938px;
 }
 .pc-top-block .left-block, .pc-top-block .right-block {
     position: relative;
@@ -390,7 +390,7 @@ ul li {
 
 /* start unit-block-1 */
 .unit-block-1 {
-    height: 448px;
+    height: 426px;
 }
 .unit-block-1 ul li {
     display: inline-block;
@@ -481,7 +481,7 @@ ul li {
 }
 .unit-block-5 .unit-left {
     display: inline-block;
-    width: 45%;
+    width: 43%;
     text-align: left;
 }
 .unit-block-5 .unit-left > img{
@@ -489,7 +489,7 @@ ul li {
 }
 .unit-block-5 .unit-right {
     display: inline-block;
-    width: 54%;
+    width: 56%;
     text-align: left;
     vertical-align: middle;
     padding-left: 80px;
@@ -743,6 +743,12 @@ ul li {
 }
 /* 區分手機 電腦 */
 
+@media only screen and (min-width:1024px) and (max-width:1025px) {
+  .pc-top-block .left-block{
+    width: 81%;
+  }
+}  
+
 @media only screen and (max-width:878px) and (min-width:767px) {
   /* .wrap-sub-content{
     min-width: 768px;
@@ -826,7 +832,7 @@ ul li {
 
 .wrap-full-h5 .string_desc{
   width: 9.7em;
-  border-right: .1em solid #fe5f3f;
+  border-right: .05em solid #fe5f3f;
   height:1.5em;
   min-height: 1.5em;
   white-space: nowrap;
