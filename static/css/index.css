@@ -30,6 +30,12 @@ ul li {
     font-weight: 600;
     margin-bottom: 0rem;
 }
+
+.sub-img {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
 .thi-title {
     font-size: 24px;
     font-weight: 600;
@@ -39,7 +45,7 @@ ul li {
     position: relative;
     width: 100%;
     max-width: 1920px;
-    height: 3328px;
+    height: 3600px;
     overflow: hidden;
     background-image: url('../img/background/background.png');
     background-repeat: no-repeat;
@@ -390,7 +396,7 @@ ul li {
 
 /* start unit-block-1 */
 .unit-block-1 {
-    height: 426px;
+    height: 500px;
 }
 .unit-block-1 ul li {
     display: inline-block;
@@ -424,7 +430,7 @@ ul li {
 
 /* start unit-block-2 */
 .unit-block-2 {
-  margin-top: 60px;
+  margin-top: 80px;
   height: 420px;
 }
 .unit-block-2 .unit-left {
@@ -441,7 +447,7 @@ ul li {
 /* end unit-block-2 */
 /* start unit-block-3 */
 .unit-block-3 {
-  margin-top: 60px;
+  margin-top: 80px;
   height: 422px;
 
 }
@@ -459,7 +465,7 @@ ul li {
 /* end unit-block-2 */
 /* start unit-block-4 */
 .unit-block-4 {
-  margin-top: 60px;
+  margin-top: 80px;
   height: 422px;
 }
 .unit-block-4 .unit-left {
@@ -476,12 +482,12 @@ ul li {
 /* end unit-block-4 */ 
 /* start unit-block-5 */
 .unit-block-5 {
-  margin-top: 60px;
-  height: 390px;
+  margin-top: 200px;
+  height: 380px;
 }
 .unit-block-5 .unit-left {
     display: inline-block;
-    width: 43%;
+    width: 44%;
     text-align: left;
 }
 .unit-block-5 .unit-left > img{
@@ -489,7 +495,7 @@ ul li {
 }
 .unit-block-5 .unit-right {
     display: inline-block;
-    width: 56%;
+    width: 55%;
     text-align: left;
     vertical-align: middle;
     padding-left: 80px;
@@ -563,6 +569,9 @@ ul li {
 }
 .wrap-full-h5 .sub-title-horizon {
     font-size: 7vw;
+}
+.wrap-full-h5 .sub-img {
+  font-size: 7vw;
 }
 .wrap-full-h5 .thi-title {
     font-size: 4.6vw;
@@ -682,7 +691,7 @@ ul li {
   margin-top: 45vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 img {
-    width: 68vw;
+    width: 100vw;
     margin-bottom: 3vw;
 }
 .wrap-full-h5 .wrap-h5-footer {
@@ -777,6 +786,16 @@ ul li {
   }
 }
 
+@media only screen and (min-width:279px) and (max-width:300px) {
+  .wrap-full-h5 #mvArea{
+    height: 370px !important;
+  }
+  .wrap-full-h5 .unit-block-1 ul li{
+    margin-bottom: 19vw;
+  }
+}
+
+
 @media only screen and (min-width:539px) and (max-width:767px) {
   .wrap-full-h5 .download-btn{
     width: 277px;
@@ -831,7 +850,7 @@ ul li {
 }  
 
 .wrap-full-h5 .string_desc{
-  width: 9.7em;
+  width: 200px;
   border-right: .05em solid #fe5f3f;
   height:1.5em;
   min-height: 1.5em;

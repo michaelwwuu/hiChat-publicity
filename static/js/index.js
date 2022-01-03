@@ -150,7 +150,9 @@ $(document).ready(function () {
     $('.download-btn').on('click', function() {
         $('.download-qr').toggleClass('show');
     })
-
+    $('.download-qr').on('click', function() {
+        $('.download-qr').removeClass('show');
+    })
 
 
     $.fn.isOnScreen = function(){
