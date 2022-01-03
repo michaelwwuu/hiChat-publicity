@@ -528,7 +528,7 @@ ul li {
   background-position: center top;
   margin: 0 auto;
   text-align: center;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 .wrap-full-h5-bg-color{
@@ -688,7 +688,7 @@ ul li {
   margin-top: -20vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 li {
-  margin-top: 45vw;
+  margin-top: 30vw;
 }
 .wrap-full-h5 .wrap-h5-unit-2 img {
     width: 100vw;
@@ -698,6 +698,7 @@ ul li {
     background-image: url('../img/background/footer.png');
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: 100% 100%;
     position: relative;
     z-index: 200;
     left: 0;
@@ -705,7 +706,7 @@ ul li {
     width: 100%;
     height: 346px;
     margin-top: 50px;
-    padding-top: 30px;
+    margin-bottom: 10px;
     display: inline-block;
     text-align: center;
 }
