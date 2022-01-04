@@ -147,9 +147,9 @@ $(document).ready(function () {
     loadProperties(i18nLanguage);
 
     /* 点击显示 QRcode */
-    $('.download-btn').on('click', function() {
-        $('.download-qr').toggleClass('show');
-    })
+    // $('.download-btn').on('click', function() {
+    //     $('.download-qr').toggleClass('show');
+    // })
     $('.download-qr').on('click', function() {
         $('.download-qr').removeClass('show');
     })
