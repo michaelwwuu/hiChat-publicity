@@ -281,7 +281,12 @@ ul li {
     cursor: pointer;
 }
 .download-btn:hover + .download-qr {
-     visibility: visible;
+  visibility: visible;
+}
+
+.download-area a{
+  text-decoration: none;
+  color: #333333;
 }
 .download-btn img {
     display: inline-block;
@@ -391,7 +396,10 @@ ul li {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 0.3rem;
+    text-decoration: none;
+    color: #333;
 }
+
 /* end download */
 
 /* start unit-block-1 */
