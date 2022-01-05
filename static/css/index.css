@@ -580,10 +580,10 @@ ul li {
     font-size: 7vw;
 }
 .wrap-full-h5 .sub-img {
-  font-size: 7vw;
+  height: 40px !important;
 }
 .wrap-full-h5 .thi-title {
-    font-size: 4.6vw;
+    font-size: 4vw;
     font-weight: 500;
 }
 .wrap-full-h5 .string_headline {
@@ -768,34 +768,56 @@ ul li {
   }
 }  
 
+@media (min-width: 279px) and (max-width:318px){
+  .wrap-full-h5 .sub-img {
+    height: 20px !important;
+  }
+}
+
+@media (min-width: 319px) and (max-width:358px) {
+  .wrap-full-h5 .string_desc{
+    width: 225px !important;
+  }
+  .wrap-full-h5 .sub-img {
+    height: 30px !important;
+  }
+}
+@media (min-width: 359px) and (max-width:373px) {
+  .wrap-full-h5 .string_desc{
+    width: 249px !important;
+  }
+  
+}
+@media (min-width: 374px) and (max-width:409px) {
+  .wrap-full-h5 .string_desc{
+    width: 256px !important;
+  }
+  .wrap-full-h5 .sub-img {
+    height: 40px !important;
+  }
+}
+@media (min-width: 410px) and (max-width:412px) {
+  .wrap-full-h5 .string_desc{
+    width: 280px !important;
+  }
+  .wrap-full-h5 .sub-img {
+    height: 50px !important;
+  }
+}
+@media (min-width: 413px) and (max-width:766px) {
+  .wrap-full-h5 .string_desc{
+    width: 284px !important;
+  }
+  .wrap-full-h5 .sub-img {
+    height: 50px !important;
+  }
+}
 @media (min-width: 767px) {
   .wrap-full-h5 .string_desc{
     width: 508px !important;
   }
-}
-@media (min-width: 319px) {
-  .wrap-full-h5 .string_desc{
-    width: 225px !important;
-  }
-}
-@media (min-width: 359px) {
-  .wrap-full-h5 .string_desc{
-    width: 249px !important;
-  }
-}
-@media (min-width: 374px) {
-  .wrap-full-h5 .string_desc{
-    width: 256px !important;
-  }
-}
-@media (min-width: 410px) {
-  .wrap-full-h5 .string_desc{
-    width: 280px !important;
-  }
-}
-@media (min-width: 413px) {
-  .wrap-full-h5 .string_desc{
-    width: 284px !important;
+  .wrap-full-h5 .sub-img {
+    height: 80px !important;
   }
 }
 @media only screen and (max-width:878px) and (min-width:767px) {
@@ -811,9 +833,7 @@ ul li {
   .wrap-full-h5 .wrap-h5-unit-2 li {
     margin-top: 55vw;
   }
-  .wrap-full-h5 .wrap-h5-footer{
-    margin-top: 115px;
-  }
+
   .wrap-full-h5 .download-btn .android-text{
     font-size:3vw;
   }
@@ -827,6 +847,10 @@ ul li {
   .wrap-full-h5 .string_desc{
     width: 510px !important;
   }
+  .wrap-full-h5 .wrap-h5-footer{
+    margin-top: 140px;
+    height: 450px !important;
+  }  
 }
 
 @media only screen and (min-width:279px) and (max-width:300px) {
