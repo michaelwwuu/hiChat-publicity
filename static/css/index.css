@@ -189,6 +189,20 @@ ul li {
     color: #fff;
     font-size:0.9em;
 }
+.string_fontM {
+  position: absolute;
+  top: 38px;
+  right: 265px;
+  color: #fff;
+  font-size:0.9em;
+}
+.string_fontM-2 {
+  position: absolute;
+  top: 38px;
+  right: 340px;
+  color: #fff;
+  font-size:0.9em;
+}
 .dropdown {
     position: absolute;
     top: 30px;
@@ -742,8 +756,22 @@ ul li {
     right: 0;
 }
 
-
-
+.wrap-full-h5 .wrap-h5-footer .string_fontM {
+  position: relative;
+  display: block;
+  left: 0;
+  top: 20px;
+  right: 0;
+  margin-bottom: 10px;
+}
+.wrap-full-h5 .wrap-h5-footer .string_fontM-2 {
+  position: relative;
+  display: block;
+  left: 0;
+  top: 20px;
+  right: 0;
+  margin-bottom: 10px;
+}
 
 /* 區分手機 電腦 */
 .wrap-full-pc {
