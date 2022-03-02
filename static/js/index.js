@@ -108,8 +108,8 @@ function loadProperties(type) {
             $('.string_qr_block_5').html($.i18n.prop('string_qr_block_5'));
             $('.string_qr_block_5_1').html($.i18n.prop('string_qr_block_5_1'));
             $('.string_copyright').html($.i18n.prop('string_copyright'));
-            $('.string_fontM').html($.i18n.prop('string_fontM'));
             $('.string_fontM-2').html($.i18n.prop('string_fontM-2'));
+            $('.string_fontM').html($.i18n.prop('string_fontM'));
         }
     });
 }
