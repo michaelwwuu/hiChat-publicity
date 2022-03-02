@@ -189,6 +189,20 @@ ul li {
     color: #fff;
     font-size:0.9em;
 }
+.string_fontM {
+  position: absolute;
+  top: 38px;
+  right: 265px;
+  color: #fff;
+  font-size:0.9em;
+}
+.string_fontM-2 {
+  position: absolute;
+  top: 38px;
+  right: 340px;
+  color: #fff;
+  font-size:0.9em;
+}
 .dropdown {
     position: absolute;
     top: 30px;
@@ -742,9 +756,26 @@ ul li {
     right: 0;
 }
 
-
-
-
+.wrap-full-h5 .wrap-h5-footer .string_fontM {
+  position: relative;
+  display: block;
+  left: 0;
+  top: 20px;
+  right: 0;
+  margin-bottom: 10px;
+}
+.wrap-full-h5 .wrap-h5-footer .string_fontM-2 {
+  position: relative;
+  display: block;
+  left: 0;
+  top: 20px;
+  right: 0;
+  margin-bottom: 10px;
+}
+.string_fontM:hover,.string_fontM-2:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
 /* 區分手機 電腦 */
 .wrap-full-pc {
     display: block;
@@ -811,6 +842,7 @@ ul li {
   .wrap-full-h5 .sub-img {
     height: 50px !important;
   }
+
 }
 @media (min-width: 767px) {
   .wrap-full-h5 .string_desc{
@@ -861,7 +893,20 @@ ul li {
     margin-bottom: 19vw;
   }
 }
-
+@media only screen and (min-width:910px) and (max-width:915px){
+  .unit-block-5 .unit-right {
+    display: inline-block;
+    width: 62%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 80px;
+  }
+  .unit-block-5 .unit-left {
+    display: inline-block;
+    width: 37%;
+    text-align: left;
+  }
+}
 
 
 @media only screen and (min-width:539px) and (max-width:767px) {
