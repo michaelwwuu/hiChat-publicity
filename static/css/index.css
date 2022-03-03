@@ -625,11 +625,11 @@ ul li {
 
 .wrap-full-h5 .download-btn {
     position: relative;
-    margin: 6vw 0 0 0;
+    margin: 2em 0 0 0;
     height: auto;
     border-radius: 10px;
     padding: 3% 6%;
-    width: 15em;
+    width: 13em;
 }
 .wrap-full-h5 .download-btn div {
     position: relative;
@@ -827,7 +827,7 @@ ul li {
 }
 @media (min-width: 374px) and (max-width:409px) {
   .wrap-full-h5 .string_desc{
-    width: 256px !important;
+    width: 260px !important;
   }
   .wrap-full-h5 .sub-img {
     height: 40px !important;
@@ -835,7 +835,7 @@ ul li {
 }
 @media (min-width: 410px) and (max-width:412px) {
   .wrap-full-h5 .string_desc{
-    width: 280px !important;
+    width: 285px !important;
   }
   .wrap-full-h5 .sub-img {
     height: 50px !important;
@@ -852,7 +852,7 @@ ul li {
 }
 @media (min-width: 767px) {
   .wrap-full-h5 .string_desc{
-    width: 508px !important;
+    width: 520px !important;
   }
   .wrap-full-h5 .sub-img {
     height: 80px !important;
