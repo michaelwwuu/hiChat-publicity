@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="./static/css/slider2.css">
   <link rel="shortcut icon" href="./static/img/brand.png">
 </head>
-</head>
 
 <body>
   <div class="wrap-full-h5">
@@ -137,8 +136,8 @@
             src="./static/img/language/china.png">简体中文</a>
         <!-- <a class="dropdown-item" href="javascript:;" onclick="switchLang('en-US')"><img class="flag"
             src="./static/img/language/united-states.png">English</a> -->
-        <a class="dropdown-item" href="javascript:;" onclick="switchLang('zh')"><img class="flag"
-              src="./static/img/language/united-states.png">繁體中文</a>    
+        <a class="dropdown-item" href="javascript:;" onclick="switchLang('zh-TW')"><img class="flag"
+              src="./static/img/language/taiwan.png">繁體中文</a>    
       </div>
     </div>
 
@@ -148,25 +147,21 @@
       <a href="https://play.google.com/store/apps/details?id=com.py.hichat" target="_blank">
         <div class="download-btn" style="background: none;padding: 0">
           <img src="./static/img/icon/btn-googleplay.png" alt="" style="width: -webkit-fill-available;position: relative; margin-top: 10%;">
+          <span style="position: relative; top:-37px; color:#000000;" class="string_app_google"></span>
         </div>
       </a>
-      <a href="https://apk.hichat.info/download/HiChat_2022-03-04_v1.3.0-release.apk" target="_blank">
+      <a href="https://apk.hichat.info/download/HiChatCN_2022-03-28_v1.3.1-release.apk" target="_blank">
         <div class="download-btn" style="background: none;padding: 0">
           <img src="./static/img/icon/btn-android.png" alt="" style="width: -webkit-fill-available;position: relative; margin-top: 0;">
+          <span style="position: relative; top:-37px; color:#000000;" class="string_app_apk_url"></span>
         </div>
       </a>
-      <!-- <a href="https://pre.hichat.tools/fe/" target="_blank">
-        <div class="download-btn">
-          <div>
-            <img src="./static/img/icon/browser.png" alt="">
-          </div>
-          <ul>
-            <li class="android-text">Open in</li>
-            <li class="string_app_ios">Browser</li>
-          </ul>
+      <a class="hichat-browser" target="_blank" onclick="window.open(location.origin + '/fe/', '_blank')">
+        <div class="download-btn" style="background: none;padding: 0">
+          <img src="./static/img/icon/btn-browser.png" alt="" style="width: -webkit-fill-available;position: relative; margin-top: 0;">
+          <span style="position: relative; top:-37px; color:#000000;" class="string_app_browser"></span>
         </div>
-      </a> -->
-      
+      </a>
     </div>
     <!-- <div class="wrap-mobile-h5">
       <img class="mobile-1" src="./static/img/mobile/records-zh.png" alt="">
@@ -251,27 +246,25 @@
           <a href="https://play.google.com/store/apps/details?id=com.py.hichat" target="_blank">
             <div class="download-btn" style="margin-top: -10vw; background: none;padding: 0;">
               <img src="./static/img/icon/btn-googleplay.png" alt="" style="width: -webkit-fill-available;;margin:0; position:relative;">
+              <span style="position: relative; top:-37px; color:#000000;" class="string_app_google"></span>
             </div>
           </a>
-          <a href="https://apk.hichat.info/download/HiChat_2022-03-04_v1.3.0-release.apk" target="_blank">
+          <a href="https://apk.hichat.info/download/HiChatCN_2022-03-28_v1.3.1-release.apk" target="_blank">
             <div class="download-btn" style="margin-top: 3vw; background: none;padding: 0;">
               <img src="./static/img/icon/btn-android.png" alt="" style="width: -webkit-fill-available;position: relative; margin-top: 0;">
+              <span style="position: relative; top:-37px; color:#000000;" class="string_app_apk_url"></span>
             </div>
           </a>
-          <!-- <a href="https://pre.hichat.tools/fe/" target="_blank">
-            <div class="download-btn" style="margin-top: -1vw;">
-              <div>
-                <img src="./static/img/icon/browser.png" alt="">
-              </div>
-              <ul>
-                <li class="android-text">Open in</li>
-                <li class="string_app_ios">Browser</li>
-              </ul>
+          <a class="hichat-browser" target="_blank" onclick="window.open(location.origin + '/fe/', '_blank')">
+            <div class="download-btn" style="margin-top: 3vw; background: none;padding: 0;">
+              <img src="./static/img/icon/btn-browser.png" alt="" style="width: -webkit-fill-available;position: relative; margin-top: 0;">
+              <span style="position: relative; top:-37px; color:#000000;" class="string_app_browser"></span>
             </div>
-          </a> -->
+          </a>
           <div style="display: flex; align-items: center; justify-content: center;"><img class="logo-footer" src="./static/img/brand-footer.png" alt=""><!-- icon --><span style="color:#FFFFFF; padding-left:10px; font-size:1.5em">Hichat</span></div>
-          <a href="privacyPolicy.html" class="string_userAgreement"></a>
-          <a href="userAgreement.html" class="string_privacyPolicy"></a>
+          <a href="privacyPolicy.html" class="string_privacyPolicy"></a>
+
+          <a href="userAgreement.html" class="string_userAgreement"></a>
           <div class="string_copyright"></div>
         </div>
     </div>
@@ -316,8 +309,8 @@
               src="./static/img/language/china.png">简体中文</a>
           <!-- <a class="dropdown-item" href="javascript:;" onclick="switchLang('en-US')"><img class="flag"
               src="./static/img/language/united-states.png">English</a> -->
-          <a class="dropdown-item" href="javascript:;" onclick="switchLang('zh')"><img class="flag"
-                src="./static/img/language/united-states.png">繁體中文</a>
+          <a class="dropdown-item" href="javascript:;" onclick="switchLang('zh-TW')"><img class="flag"
+                src="./static/img/language/taiwan.png">繁體中文</a>    
         </div>
       </div>
 
@@ -328,9 +321,12 @@
           <div class="string_kebord">
             <p class="string_desc"></p>
           </div>
-          <div class="download-area-browser" >
+          <div class="download-area">
             <a href="https://play.google.com/store/apps/details?id=com.py.hichat" target="_blank">
-              <img src="./static/img/icon/btn-googleplay.png" alt="" style="height:60px;margin:0; position:relative;">
+              <div class="download-btn">
+                <img src="./static/img/icon/btn-googleplay.png" alt="" style="height:60px;margin:0; position:relative;">
+                <span style="display: flex;color:#000000;" class="string_app_google"></span>
+              </div>
             </a>
             <div class="download-qr" style="visibility:hidden">
               <span class="triangle"></span>
@@ -338,10 +334,11 @@
               <img src="./static/img/qr.png" alt="">
             </div>
           </div>
-          <div class="download-area" style="margin-left: 10px;">
-            <a href="https://apk.hichat.info/download/HiChat_2022-03-04_v1.3.0-release.apk" target="_blank">
+          <div class="download-area" style="margin-left: -20px; margin-top: 20px;">
+            <a href="https://apk.hichat.info/download/HiChatCN_2022-03-28_v1.3.1-release.apk" target="_blank">
               <div class="download-btn">
                 <img src="./static/img/icon/btn-android.png" alt="" style="height:60px;margin:0;">
+                <span style="display: flex;color:#000000;" class="string_app_apk_url"></span>
               </div>
               <div class="download-qr">
                 <span class="triangle"></span>
@@ -350,12 +347,11 @@
               </div>
             </a>
           </div>
-          <!-- <div class="download-area-browser" style="margin-left: 10px;">
-            <a href="https://pre.hichat.tools/fe/" target="_blank">
-              <div class="download-btn-browser">
-                <img src="./static/img/icon/browser.png" alt="" style="margin:0; position:relative;top:8px;">
-                <p class="android-text">Open in</p><br>
-                <p class="string_app_ios">Browser</p>
+          <div class="download-area" style="margin-left: -20px; margin-top: 20px;">
+            <a class="hichat-browser" target="_blank" onclick="window.open(location.origin + '/fe/', '_blank')">
+              <div class="download-btn">
+                <img src="./static/img/icon/btn-browser.png" alt="" style="height:60px;margin:0; position:relative;">
+                <span style="display: flex;color:#000000;" class="string_app_browser"></span>
               </div>
             </a>
             <div class="download-qr" style="visibility:hidden">
@@ -363,7 +359,7 @@
               <p class="string_qr_download"></p>
               <img src="./static/img/qr.png" alt="">
             </div>
-          </div> -->
+          </div>
           
         </div>
         <div class="right-block">
@@ -455,19 +451,22 @@
     </div>
 
     <!-- 立即下载 -->
-    <div class="wrap-sub-content padding-50 unit-block-5">
+    <div class="wrap-sub-content padding-50 unit-block-5" style="max-width: 1200px;">
       <!-- 938 -->
       <div class="unit-left">
-        <img src="./static/img/illustration/Rectangle4.png" style="width: 450px;" alt="">
+        <img src="./static/img/illustration/Rectangle4.png" style="width: 400px;" alt="">
       </div>
       <!--
             -->
       <div class="unit-right">
         <p class="string_qr_block_5 sub-title-horizon"></p>
         <p class="string_qr_block_5_1 thi-title"></p>
-        <div class="download-area-browser">
+        <div class="download-area">
           <a href="https://play.google.com/store/apps/details?id=com.py.hichat" target="_blank">
-            <img src="./static/img/icon/btn-googleplay.png" alt="" style="height:60px;margin:0; position:relative;">
+            <div class="download-btn">
+              <img src="./static/img/icon/btn-googleplay.png" alt="" style="height:60px;margin:0; position:relative;">
+              <span style="display: flex;color:#000000;" class="string_app_google"></span>
+            </div>
           </a>
           <div class="download-qr" style="visibility:hidden">
             <span class="triangle"></span>
@@ -475,10 +474,11 @@
             <img src="./static/img/qr.png" alt="">
           </div>
         </div>
-        <div class="download-area" style="margin-left: 10px;">
-          <a href="https://apk.hichat.info/download/HiChat_2022-03-04_v1.3.0-release.apk" target="_blank">
+        <div class="download-area" style="margin-left: -20px; margin-top: 20px;">
+          <a href="https://apk.hichat.info/download/HiChatCN_2022-03-28_v1.3.1-release.apk" target="_blank">
             <div class="download-btn">
               <img src="./static/img/icon/btn-android.png" alt="" style="height:60px;margin:0; position:relative;">
+              <span style="display: flex;color:#000000;" class="string_app_apk_url"></span>
             </div>
             <div class="download-qr">
               <span class="triangle"></span>
@@ -486,14 +486,12 @@
               <img src="./static/img/qr.png" alt="">
             </div>
           </a>
-
         </div>
-        <!-- <div class="download-area-browser" style="margin-left: 10px;">
-          <a href="https://pre.hichat.tools/fe/" target="_blank">
-            <div class="download-btn-browser">
-              <img src="./static/img/icon/browser.png" alt="" style="margin:0; position:relative;top:8px;">
-              <p class="android-text">Open in</p><br>
-              <p class="string_app_ios">Browser</p>
+        <div class="download-area" style="margin-left: -20px; margin-top: 20px;">
+          <a class="hichat-browser" target="_blank" onclick="window.open(location.origin + '/fe/', '_blank')">
+            <div class="download-btn">
+              <img src="./static/img/icon/btn-browser.png" alt="" style="height:60px;margin:0; position:relative;">
+              <span style="display: flex;color:#000000;" class="string_app_browser"></span>
             </div>
           </a>
           <div class="download-qr" style="visibility:hidden">
@@ -501,7 +499,7 @@
             <p class="string_qr_download"></p>
             <img src="./static/img/qr.png" alt="">
           </div>
-        </div> -->
+        </div>
         
       </div>
     </div>
@@ -512,8 +510,8 @@
         <img class="logo-footer" src="./static/img/brand.png" alt="">
         <!-- icon --><span>Hichat</span>
       </div>
-      <a href="userAgreement.html" class="string_privacyPolicy"></a>
-      <a href="privacyPolicy.html" class="string_userAgreement"></a>
+      <a href="userAgreement.html" class="string_userAgreement"></a>
+      <a href="privacyPolicy.html" class="string_privacyPolicy"></a>
       <div class="string_copyright"></div>
     </div>
 
@@ -531,9 +529,8 @@
 <script type="text/javascript" src="./static/lib/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
 
 <script src="./static/js/index.js"></script>
-
 <script>
-   var controller = new ScrollMagic.Controller();
+  var controller = new ScrollMagic.Controller();
    
   new ScrollMagic.Scene({
       triggerElement: "#toggle_magic_1",
@@ -706,9 +703,6 @@
   }
   },{ passive: false});
 
-
- 
-
   $(window).scroll(function() {  
     if (
       navigator.userAgent.match(/Android/i) ||
@@ -737,6 +731,7 @@
         $(".wrap-content-text").removeClass("wrap-content-text-write");
       }
     }  
+    
   }); //missing );
 </script>
 </html>
