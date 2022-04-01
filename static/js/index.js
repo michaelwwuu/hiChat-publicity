@@ -77,9 +77,9 @@ function loadProperties(type) {
     $('.mobile-1').attr('src', './static/img/mobile/records-zh.png');
     $('.mobile-2').attr('src', './static/img/mobile/home-zh.png');
     if (type === 'zh-TW') {
-      $('.dropdown button').html('<img class="flag" src="./static/img/language/taiwan.png">繁體中文 '); // 下拉選單
+      $('.dropdown button').html('<span>繁體中文</span> '); // 下拉選單
     } else {
-      $('.dropdown button').html('<img class="flag" src="./static/img/language/china.png">简体中文 '); // 下拉選單
+      $('.dropdown button').html('<span>简体中文</span> '); // 下拉選單
     }
   }
 
