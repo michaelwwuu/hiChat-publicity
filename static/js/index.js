@@ -164,6 +164,10 @@ $(document).ready(function () {
     $('.download-qr').removeClass('show');
   })
 
+  $('.download-qr-googleplay').on('click', function () {
+    $('.download-qr-googleplay').removeClass('show');
+  })
+
 
   $.fn.isOnScreen = function () {
     var win = $(window);

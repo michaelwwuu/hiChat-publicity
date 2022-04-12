@@ -1506,8 +1506,8 @@ section {
 
   #mvArea {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 900px;
     min-width: 1200px
   }
 
@@ -1639,8 +1639,8 @@ section {
 
   #mvArea .mvList {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 900px;
     min-width: 1200px;
     /* animation: startMv 2.1s; */
     animation-timing-function: ease-in-out;
