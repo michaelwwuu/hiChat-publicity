@@ -891,7 +891,7 @@ ul li {
 }
 @media (min-width: 374px) and (max-width:409px) {
   .wrap-full-h5 .string_desc{
-    width: 260px !important;
+    width: 270px !important;
   }
   .wrap-full-h5 .sub-img {
     height: 40px !important;
@@ -952,7 +952,7 @@ ul li {
     width: 8vw;
   }
   .wrap-full-h5 .string_desc{
-    width: 510px !important;
+    width: 540px !important;
   }
   .wrap-full-h5 .wrap-h5-footer{
     margin-top: 235px;
