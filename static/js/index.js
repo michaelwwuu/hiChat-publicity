@@ -65,6 +65,7 @@ var webLanguage = ['en-US', 'en', 'zh-CN', 'zh-TW'];
 var LANGUAGE_CODE = "zh-CN"; //标识语言
 
 function loadProperties(type) {
+  console.log(type)
   if (type === 'en-US' || type === 'en') {
     $('.logo').attr('src', './static/img/brand.png');
     $('.logo-footer').attr('src', './static/img/brand-footer.png');
@@ -77,8 +78,14 @@ function loadProperties(type) {
     $('.mobile-1').attr('src', './static/img/mobile/records-zh.png');
     $('.mobile-2').attr('src', './static/img/mobile/home-zh.png');
     if (type === 'zh-TW') {
+      $(".string_app_google_img").attr("src", './static/img/icon/btn-googleplay-tc.png');
+      $(".string_app_android_img").attr("src", './static/img/icon/btn-android-tc.png');
+      $(".string_app_browser_img").attr("src", './static/img/icon/btn-browser-tc.png');
       $('.dropdown button').html('<span>繁體中文</span> '); // 下拉選單
     } else {
+      $(".string_app_google_img").attr("src", './static/img/icon/btn-googleplay.png');
+      $(".string_app_android_img").attr("src", './static/img/icon/btn-android.png');
+      $(".string_app_browser_img").attr("src", './static/img/icon/btn-browser.png');
       $('.dropdown button').html('<span>简体中文</span> '); // 下拉選單
     }
   }
@@ -117,7 +124,6 @@ function loadProperties(type) {
       $('.string_app_google').html($.i18n.prop('string_app_google'));
       $('.string_app_apk_url').html($.i18n.prop('string_app_apk_url'));
       $('.string_app_browser').html($.i18n.prop('string_app_browser'));
-
     }
   });
 }
