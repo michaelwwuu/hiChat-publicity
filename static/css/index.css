@@ -269,7 +269,9 @@ ul li {
     color: #fff;
     font-size: 35px;
 }
-
+.pc-top-block .string_desc.english {
+  width: 21em;
+}
   
 .mobile-1 {
     position: absolute;
@@ -879,6 +881,10 @@ ul li {
   .wrap-full-h5 .string_desc{
     width: 225px !important;
   }
+  .wrap-full-h5 .string_desc.english{
+    width: 300px !important;
+    font-size:13px;
+  }
   .wrap-full-h5 .sub-img {
     height: 30px !important;
   }
@@ -887,11 +893,18 @@ ul li {
   .wrap-full-h5 .string_desc{
     width: 249px !important;
   }
-  
+  .wrap-full-h5 .string_desc.english{
+    width: 350px !important;
+    font-size:15px;
+  }  
 }
 @media (min-width: 374px) and (max-width:409px) {
   .wrap-full-h5 .string_desc{
     width: 270px !important;
+  }
+  .wrap-full-h5 .string_desc.english{
+    width: 365px !important;
+    font-size:16px;
   }
   .wrap-full-h5 .sub-img {
     height: 40px !important;
@@ -901,6 +914,10 @@ ul li {
   .wrap-full-h5 .string_desc{
     width: 285px !important;
   }
+  .wrap-full-h5 .string_desc.english{
+    width: 365px !important;
+    font-size:16px;
+  }
   .wrap-full-h5 .sub-img {
     height: 50px !important;
   }
@@ -908,6 +925,10 @@ ul li {
 @media (min-width: 413px) and (max-width:766px) {
   .wrap-full-h5 .string_desc{
     width: 284px !important;
+  }
+  .wrap-full-h5 .string_desc.english{
+    width: 365px !important;
+    font-size:16px;
   }
   .wrap-full-h5 .sub-img {
     height: 50px !important;
@@ -918,6 +939,10 @@ ul li {
   .wrap-full-h5 .string_desc{
     width: 520px !important;
   }
+  .wrap-full-h5 .string_desc .english{
+    width: 520px !important;
+  }
+
   .wrap-full-h5 .sub-img {
     height: 80px !important;
   }
@@ -953,6 +978,10 @@ ul li {
   }
   .wrap-full-h5 .string_desc{
     width: 540px !important;
+  }
+  .wrap-full-h5 .string_desc.english{
+    width: 365px !important;
+    font-size:16px;
   }
   .wrap-full-h5 .wrap-h5-footer{
     margin-top: 235px;
@@ -1036,6 +1065,10 @@ ul li {
   }
   .wrap-full-h5 .string_desc{
     width: 363px !important;
+  }
+  .wrap-full-h5 .string_desc.english{
+    width: 365px !important;
+    font-size:16px;
   }
 }
 @media only screen and (max-width:281px) and (max-height:654px) {

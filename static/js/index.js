@@ -65,13 +65,16 @@ var webLanguage = ['en-US', 'en', 'zh-CN', 'zh-TW'];
 var LANGUAGE_CODE = "zh-CN"; //标识语言
 
 function loadProperties(type) {
-  console.log(type)
   if (type === 'en-US' || type === 'en') {
     $('.logo').attr('src', './static/img/brand.png');
     $('.logo-footer').attr('src', './static/img/brand-footer.png');
     $('.mobile-1').attr('src', './static/img/mobile/records-en.png');
     $('.mobile-2').attr('src', './static/img/mobile/home-en.png');
-    $('.dropdown button').html('<img class="flag" src="./static/img/language/united-states.png">English '); // 下拉選單
+    $('.dropdown button').html('English '); // 下拉選單
+    $('.string_desc').addClass("english")
+    $('.string_privacyPolicy').css("right","315px")
+    $('.string_userAgreement').css("right","410px")
+
   } else {
     $('.logo').attr('src', './static/img/brand.png');
     $('.logo-footer').attr('src', './static/img/brand-footer.png');
