@@ -80,6 +80,8 @@ function loadProperties(type) {
     $('.logo-footer').attr('src', './static/img/brand-footer.png');
     $('.mobile-1').attr('src', './static/img/mobile/records-zh.png');
     $('.mobile-2').attr('src', './static/img/mobile/home-zh.png');
+    $('.string_privacyPolicy').removeAttr("style")
+    $('.string_userAgreement').removeAttr("style")
     if (type === 'zh-TW') {
       $(".string_app_google_img").attr("src", './static/img/icon/btn-googleplay-tc.png');
       $(".string_app_android_img").attr("src", './static/img/icon/btn-android-tc.png');
