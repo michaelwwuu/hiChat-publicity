@@ -572,7 +572,7 @@ ul li {
   background-position: center top;
   margin: 0 auto;
   text-align: center;
-  background-size: 100% 100%;
+  background-size: 100% 94%;
 }
 
 .wrap-full-h5-bg-color{
@@ -745,10 +745,10 @@ ul li {
 .wrap-full-h5 .wrap-h5-footer {
     background-image: url('../img/background/footer.png');
     background-repeat: no-repeat;
-    background-position: center 60%;
+    background-position: center 41%;
     background-size: 100%;
     position: relative;
-    z-index: 200;
+    z-index: 1;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -758,6 +758,7 @@ ul li {
     display: inline-block;
     text-align: center;
     display: grid;
+    height: 600px;
 }
 .wrap-full-h5 .wrap-h5-footer .logo {
     position: relative;
@@ -803,9 +804,13 @@ ul li {
 }
 .wrap-h5-footer-bg{
   position: relative;
-  top: -25px;
-  height: 130px;
-  background-color: #ff5736;
+  top: -90px;
+  height: 217px;
+  background-color: #ff6900;
+  background-image: url('../img/background/nav.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% ;
 }
 .string_privacyPolicy:hover,.string_userAgreement:hover{
   text-decoration: none;
@@ -839,10 +844,10 @@ ul li {
 /* 區分手機 電腦 */
 @media (width: 820px){
   .pad-air-style{
-    padding: 0 45px 0 20px !important;
+    padding: 0 0px !important;
   }
   .wrap-full-h5 .wrap-h5-footer{
-    background-image:none;
+    /* background-image:none; */
   }
 }
 
@@ -951,6 +956,9 @@ ul li {
   /* .wrap-sub-content{
     min-width: 768px;
   } */
+  .wrap-full-h5{
+    background-size: 100% 102%;
+  }
   .wrap-full-h5 .download-btn{
     width: 382px;
   }
@@ -986,7 +994,8 @@ ul li {
   .wrap-full-h5 .wrap-h5-footer{
     margin-top: 235px;
     height: 550px !important;
-    background-image:none !important;
+    /* background-image:none !important; */
+    background-position: center 66%;
   }  
 }
 
@@ -1080,6 +1089,14 @@ ul li {
   }
 }
 
+@media only screen and (max-width:280px) {
+  .wrap-full-h5 .wrap-h5-footer{
+    background-position: center 35%;
+  }
+  .wrap-h5-footer-bg{
+    height: 256px;
+  }
+}
 
 .string_headline {
     animation: string_fadeout 1s forwards;
