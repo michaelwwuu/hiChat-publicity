@@ -266,9 +266,18 @@ ul li {
   margin-bottom:30px;
 }
 .pc-top-block .string_desc {
-    color: #fff;
-    font-size: 35px;
+  width: 9.3em;
+  font-size: 35px;
+  color: #fff;
+  border-right: 6px solid #ff6900;
+  margin-bottom: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(9),caret 1s steps(1) infinite;
+  animation: typing 2s steps(9),caret 1s steps(1) infinite;
+
 }
+
 .pc-top-block .string_desc.english {
   width: 21em;
 }
@@ -633,15 +642,22 @@ ul li {
   width: 130px;
 }
 .wrap-full-h5 .string_desc {
-    font-size: 7vw;
-    color: #fff;
-    margin-top: -2px;
-    font-weight: 500;
-    margin-bottom: 0;
-    min-height: 17vw;
-    padding: 0 20px;
-    z-index: 9;
+  width: 10em;
+  height: 1.5em;
+  min-height: 1.5em;
+  font-size: 7vw;
+  font-weight: 500;
+  color: #fff;
+  border-right: 6px solid #ff6900;
+  padding: 0 20px;
+  margin-top: -2px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  -webkit-animation: h5-typing 2s steps(8),caret 1s steps(1) infinite;
+  animation: h5-typing 2s steps(8),caret 1s steps(1) infinite;
+  overflow: hidden;
 }
+
 .wrap-full-h5 .hichat-browser .download-btn{
   width: 11em;
 }
@@ -883,9 +899,9 @@ ul li {
 }
 
 @media (min-width: 319px) and (max-width:358px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 225px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 300px !important;
     font-size:13px;
@@ -895,18 +911,18 @@ ul li {
   }
 }
 @media (min-width: 359px) and (max-width:373px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 249px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 350px !important;
     font-size:15px;
   }  
 }
 @media (min-width: 374px) and (max-width:409px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 270px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 365px !important;
     font-size:16px;
@@ -916,9 +932,9 @@ ul li {
   }
 }
 @media (min-width: 410px) and (max-width:412px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 285px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 365px !important;
     font-size:16px;
@@ -928,9 +944,9 @@ ul li {
   }
 }
 @media (min-width: 413px) and (max-width:766px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 284px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 365px !important;
     font-size:16px;
@@ -941,9 +957,9 @@ ul li {
 
 }
 @media (min-width: 767px) {
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 520px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc .english{
     width: 520px !important;
   }
@@ -960,10 +976,14 @@ ul li {
     background-size: 100% 102%;
   }
   .wrap-full-h5 .download-btn{
-    width: 382px;
+    width: 265px;
+  }
+  .wrap-full-h5 .string_desc{
+    width: 9.8em;
+    font-size: 5vw;
   }
   .wrap-full-h5 .hichat-browser .download-btn{
-    width: 300px;
+    width: 225px;
   }
   .wrap-full-h5 .wrap-h5-unit-2{
     margin-top: 60vw;
@@ -984,9 +1004,9 @@ ul li {
     margin-top:70%;
     width: 8vw;
   }
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 540px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 365px !important;
     font-size:16px;
@@ -995,7 +1015,7 @@ ul li {
     margin-top: 235px;
     height: 550px !important;
     /* background-image:none !important; */
-    background-position: center 66%;
+    background-position: center 45%;
   }  
 }
 
@@ -1043,8 +1063,14 @@ ul li {
 
 
 @media only screen and (min-width:539px) and (max-width:767px) {
+  .wrap-full-h5{
+    background-size: 100% 100%;
+  }
   .wrap-full-h5 .download-btn{
-    width: 277px;
+    width: 235px;
+  }
+  .wrap-full-h5 .hichat-browser .download-btn {
+    width: 200px;
   }
   .wrap-full-h5 .wrap-h5-unit-2{
     margin-top: 60vw;
@@ -1059,8 +1085,9 @@ ul li {
     margin-top: 55vw;
   }
   .wrap-full-h5 .wrap-h5-footer{
-    margin-top: 115px;
-    background-image:none !important;
+    margin-top: 85px;
+    /* background-image:none !important; */
+    background-position: center 40%;
   }
   .wrap-full-h5 .download-btn .android-text{
     font-size:3vw;
@@ -1072,9 +1099,9 @@ ul li {
     margin-top:70%;
     width: 8vw;
   }
-  .wrap-full-h5 .string_desc{
+  /* .wrap-full-h5 .string_desc{
     width: 363px !important;
-  }
+  } */
   .wrap-full-h5 .string_desc.english{
     width: 365px !important;
     font-size:16px;
@@ -1126,7 +1153,7 @@ ul li {
     50% { border-color: transparent; transform: translateX(0);}
 }  
 
-.wrap-full-h5 .string_desc{
+/* .wrap-full-h5 .string_desc{
   width: 200px;
   border-right: .05em solid #fe5f3f;
   height:1.5em;
@@ -1134,8 +1161,8 @@ ul li {
   white-space: nowrap;
   animation: h5-typing 2s steps(8),
   caret 1s steps(1) infinite;
-}
-.string_desc {
+} */
+/* .string_desc {
     width: 9em;
     border-right: .05em solid #fe5f3f;
     overflow: hidden;
@@ -1143,7 +1170,7 @@ ul li {
     white-space: nowrap;
     animation: typing 2s steps(9),
       caret 1s steps(1) infinite;
-}
+} */
 
 
 .download-area, .download-btn,.download-area-browser,.download-btn-browser {
