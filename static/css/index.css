@@ -761,14 +761,14 @@ ul li {
 .wrap-full-h5 .wrap-h5-footer {
     background-image: url('../img/background/footer.png');
     background-repeat: no-repeat;
-    background-position: center 41%;
+    background-position: center 47%;
     background-size: 100%;
     position: relative;
     z-index: 1;
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* height:600px; */
     margin-bottom: 10px;
     display: inline-block;
@@ -924,7 +924,7 @@ ul li {
     width: 270px !important;
   } */
   .wrap-full-h5 .string_desc.english{
-    width: 365px !important;
+    width: 370px !important;
     font-size:16px;
   }
   .wrap-full-h5 .sub-img {
@@ -936,7 +936,7 @@ ul li {
     width: 285px !important;
   } */
   .wrap-full-h5 .string_desc.english{
-    width: 365px !important;
+    width: 370px !important;
     font-size:16px;
   }
   .wrap-full-h5 .sub-img {
@@ -948,7 +948,7 @@ ul li {
     width: 284px !important;
   } */
   .wrap-full-h5 .string_desc.english{
-    width: 365px !important;
+    width: 370px !important;
     font-size:16px;
   }
   .wrap-full-h5 .sub-img {
@@ -1008,14 +1008,14 @@ ul li {
     width: 540px !important;
   } */
   .wrap-full-h5 .string_desc.english{
-    width: 365px !important;
+    width: 370px !important;
     font-size:16px;
   }
   .wrap-full-h5 .wrap-h5-footer{
-    margin-top: 235px;
+    /* margin-top: 235px; */
     height: 550px !important;
     /* background-image:none !important; */
-    background-position: center 45%;
+    background-position: center 55%;
   }  
 }
 
@@ -1084,11 +1084,7 @@ ul li {
   .wrap-full-h5 .wrap-h5-unit-2 li {
     margin-top: 55vw;
   }
-  .wrap-full-h5 .wrap-h5-footer{
-    margin-top: 85px;
-    /* background-image:none !important; */
-    background-position: center 40%;
-  }
+
   .wrap-full-h5 .download-btn .android-text{
     font-size:3vw;
   }
@@ -1103,7 +1099,7 @@ ul li {
     width: 363px !important;
   } */
   .wrap-full-h5 .string_desc.english{
-    width: 365px !important;
+    width: 370px !important;
     font-size:16px;
   }
 }
@@ -1118,7 +1114,7 @@ ul li {
 
 @media only screen and (max-width:280px) {
   .wrap-full-h5 .wrap-h5-footer{
-    background-position: center 35%;
+    background-position: center 42%;
   }
   .wrap-h5-footer-bg{
     height: 256px;
