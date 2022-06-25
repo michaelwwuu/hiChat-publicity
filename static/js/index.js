@@ -73,6 +73,10 @@ function loadProperties(type) {
     $('.string_privacyPolicy').css("right","315px")
     $('.string_userAgreement').css("right","410px")
     $('.string_desc').addClass("english")
+    $('.string_qr_block_2').addClass("english-style")
+    $('.string_qr_block_3').addClass("english-style")
+    $('.string_qr_block_4').addClass("english-style")
+
 
     $(".string_app_google_img").attr("src", './static/img/icon/btn-googleplay-en.png');
     $(".string_app_android_img").attr("src", './static/img/icon/btn-android-en.png');
@@ -85,6 +89,9 @@ function loadProperties(type) {
     $('.mobile-1').attr('src', './static/img/mobile/records-zh.png');
     $('.mobile-2').attr('src', './static/img/mobile/home-zh.png');
     $('.string_desc').removeClass("english")
+    $('.string_qr_block_2').removeClass("english-style")
+    $('.string_qr_block_3').removeClass("english-style")
+    $('.string_qr_block_4').removeClass("english-style")
 
     $('.string_privacyPolicy').removeAttr("style")
     $('.string_userAgreement').removeAttr("style")
