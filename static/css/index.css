@@ -663,7 +663,10 @@ ul li {
   animation: h5-typing 2s steps(8),caret 1s steps(1) infinite;
   overflow: hidden;
 }
-
+.wrap-full-h5 .string_desc.english{
+  width: 335px !important;
+  font-size: 16px;
+}
 .wrap-full-h5 .hichat-browser .download-btn{
   width: 11em;
 }
